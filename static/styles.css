@@ -1,0 +1,38 @@
+/* Basic styles for the body and container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a4d7c6; /* Light green background */
+    color: #333333; /* Dark text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Styling for form input and button */
+input[type="text"], button {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #ff77aa; /* Pink background */
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer styling */
+footer {
+    background-color: #ff77aa; /* Pink background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome App</title>
+    <!-- Link to the stylesheet using Flask's static path -->
+    <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
-    <h1>Welcome! Please enter your name:</h1>
-    <form action="/submit" method="post">
-        <input type="text" name="user_name" placeholder="Your name here">
-        <button type="submit">Enter</button>
-    </form>
+    <div class="container">
+        <h1>Welcome! Please enter your name:</h1>
+        <!-- Form that submits a POST request to the /submit route -->
+        <form action="/submit" method="post">
+            <input type="text" name="user_name" placeholder="Your name here">
+            <button type="submit">Enter</button>
+        </form>
+    </div>
     <footer>
         <p>© Mr. Muhammad Abdullah and Mrs. Ayesha Asim</p>
         <p>Welcoming Gift for Mr. Saad Ahmad and Mrs. Nayab Irfan</p>
